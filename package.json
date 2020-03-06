@@ -1,0 +1,23 @@
+{
+  "name": "@m1yh3m/worldclock.node.sh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "m1yh3m",
+  "license": "ISC",
+  "dependencies": {
+    "@f0c1s/color-blue": "0.0.1",
+    "@f0c1s/color-green": "0.0.1",
+    "@f0c1s/color-red": "0.0.1",
+    "@f0c1s/color-yellow": "0.0.1",
+    "commander": "^4.1.1",
+    "moment-timezone": "^0.5.28"
+  },
+  "bin": {
+    "world_clock": "./index.js"
+  }
+}
